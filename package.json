@@ -1,0 +1,23 @@
+{
+  "name": "supernova-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "description": "SuperNova page (UI only). Forwards /api/* to the SuperNova backend at BACKEND_URL.",
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start -p 3000"
+  },
+  "dependencies": {
+    "marked": "^18.1.2",
+    "next": "^15.5.28",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "typescript": "^5.9.3"
+  }
+}
